@@ -1,5 +1,5 @@
 import { List, Moon, Sun } from "@phosphor-icons/react";
-import { Logo } from "../../assets";
+import { Logo, LogoDark } from "../../assets";
 import { useAppContext } from "../../context/AppContext";
 
 export default function Header() {
@@ -15,7 +15,8 @@ export default function Header() {
             <nav className="bg-white dark:bg-neutral-950 border-gray-200 dark:bg-gray-900">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
                     <a href="#" className="flex items-center">
-                        <img src={Logo} className="h-20 dark:invert" alt="Logo Hotsite" />
+                        <img src={Logo} className="h-20 dark:hidden" alt="Logo Proxima jornada" />
+                        <img src={LogoDark} className="h-20 hidden dark:flex" alt="Logo Proxima jornada"/>
                     </a>
                     <button onClick={() => setMenu(!menu)} type="button" className="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-red dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                         <List size={40} weight="bold" className="dark:text-white" />
