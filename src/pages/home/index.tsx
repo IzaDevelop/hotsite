@@ -42,7 +42,7 @@ export default function Home() {
                     <div className="w-full flex flex-wrap justify-around xl:justify-between max-w-7xl">
                         <div className="block max-w-sm p-6 bg-white dark:bg-neutral-900 rounded-lg shadow mt-5">
                             <h5 className="mb-2 text-2xl font-bold tracking-tight uppercase">Fidelidade</h5>
-                            <p className="font-normal text-gray-700 dark:text-gray-400">Os clientes que manteiverem a <span className="text-red">frêquencia de compras de R$500,00</span> por toda a campanha ganharão <span className="text-red">30 pontos</span> a mais.</p>
+                            <p className="font-normal text-gray-700 dark:text-gray-400">Os clientes que manteiverem a <span className="text-red">frêquencia de compras de R$5000,00</span> por toda a campanha ganharão <span className="text-red">30 pontos</span> a mais.</p>
                         </div>
 
                         <div className="block max-w-sm p-6 bg-white dark:bg-neutral-900 rounded-lg shadow mt-5">
