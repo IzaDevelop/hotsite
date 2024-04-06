@@ -1,12 +1,12 @@
 import { ReactElement } from "react";
-import Header from "../header";
-import Footer from "../footer";
+import { Header } from "./Header";
+import { Footer } from "./Footer";
 
 interface LayoutProps {
     children: ReactElement;
 }
 
-export default function Layout(props: LayoutProps) {
+export function Layout(props: LayoutProps) {
     return (
         <>
             <Header />

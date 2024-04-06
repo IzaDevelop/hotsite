@@ -1,8 +1,8 @@
-import { Logo, LogoDark } from "../../assets";
+import { Logo, LogoDark } from "../assets";
 
-export default function Footer() {
+export function Footer() {
     return (
-        <footer className="bg-white dark:bg-neutral-950 text-dark dark:text-white">
+        <footer className="bg-slate-100 dark:bg-neutral-950 text-dark dark:text-white">
             <article className="w-full max-w-screen-xl mx-auto p-2 md:py-4">
                 <section className="flex flex-wrap-reverse items-center justify-center md:justify-between text-center md:text-start">
                     <div>

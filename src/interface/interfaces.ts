@@ -5,3 +5,10 @@ export interface AppInterface {
     menu: boolean;
     setMenu: (value: boolean) => void;
 }
+
+export interface CardInterface {
+    image: string;
+    title: string;
+    description: string;
+    button: string;
+}
